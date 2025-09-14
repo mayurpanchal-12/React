@@ -1,0 +1,32 @@
+body.light {
+  background: #f9f9f9;
+  color: #333;
+}
+
+body.dark {
+  background: #333;
+  color: #f9f9f9;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card, .cart-item, .order-card {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+}
